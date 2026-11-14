@@ -1,0 +1,16 @@
+{
+  "appId": "com.pixelplayer.ios",
+  "appName": "PixelPlayer",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "ios": {
+    "contentInset": "never",
+    "scrollEnabled": false,
+    "backgroundColor": "#101318",
+    "preferredContentMode": "mobile"
+  },
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "capacitor"
+  }
+}

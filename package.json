@@ -1,0 +1,19 @@
+{
+  "name": "pixelplayer-ios",
+  "version": "1.0.0",
+  "description": "PixelPlayer — Material 3 Expressive Offline Music Player for iOS (Capacitor & PWA)",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p www && cp index.html www/index.html && cp manifest.json www/manifest.json",
+    "cap:sync": "npx cap sync",
+    "cap:ios": "npx cap add ios && npx cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/ios": "^6.1.2",
+    "@capacitor/android": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
